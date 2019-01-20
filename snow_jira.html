@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<script src="snow_jira.js"></script>
+</head>
+<body>
+<input type="button" value="Click to Post Incident to SNOW" onclick="defPostIncidentToSNOW()"/>
+<input type="button" value="Click to Update Incident to SNOW via Scripted API" onclick="defUpdateSNOWIncidentWithScriptedAPI_put()"/>
+<input type="button" value="Click to Update SNOW Incidents" onclick="defUpdateSNOWIncident()"/>
+<input type="button" value="Click to get SNOW Incidents" onclick="defGetIncidentsFromSnow()"/>
+<input type="button" value="Click to Post Issue to JIRA" onclick="defPostIssueToJira()"/>
+<input type="button" value="Click to get All JIRA Issues" onclick="getAllIssuesFromJira()"/>
+<input type="button" value="Click to get JIRA MetaData" onclick="defGetJIRAMetaData()"/>
+<input type="button" value="Click to get 1 JIRA Issue" onclick="getOneIssueFromJira()"/>
+
+
+<hr>
+Short Description : <input type=text id="shortDesc"/>
+Assignment Group  : <input type=text id="assGroup"/>
+Contact type      : <input type=text id="contact_type"/>
+
+<hr>
+<p id="response">Response will be printed here</p>
+
+</body>
+</html>
